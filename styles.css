@@ -1,7 +1,6 @@
 .flex-container{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
-    margin: 0;
     justify-content: flex-start;
     flex: 1;
 }
@@ -60,17 +59,28 @@ a{
 }
 .container2{
        display: flex;
+       flex-wrap: wrap;
        
        
 
 }
-.container2 >div{
+.container2 .heading .top{
     background-color: rgb(230, 231, 231);
     font-size: 25px;
-    padding: 20px;
+    padding: 5px;
     padding-right: 50px;
-   
-    
-    text-wrap: wrap;
     max-width: 50ch;
+    max-height: fit-content;
+    margin-bottom: 0%;
+}
+
+.container2 .middle{
+    margin-top: 0%;
+    font-size: 15px;
+    background-color: rgb(255, 254, 254);
+    padding-top: 5px;
+}
+.flex-row input{
+  
+    flex-wrap: wrap;
 }
